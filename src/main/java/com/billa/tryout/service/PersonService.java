@@ -26,6 +26,7 @@ public class PersonService {
 		persons.put("2", p);
 	}
 	
+	//Get people
 	public Person getPerson(String id) {
 		if(persons.containsKey(id))
 			return persons.get(id);
